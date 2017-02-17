@@ -1,7 +1,7 @@
 #!/usr/bin/env python2
 
 '''
-This Package contains an API for tv_grabbers Alle data is defined in JSON files
+This Package contains an API for tv_grabbers. All data is defined in JSON files
 Including where and how to get the tv data. Multiple sources can be defined
 and the resulting data is integrated into one XMLTV output file.
 The detailed behaviour is highly configurable. See our site for more details.
