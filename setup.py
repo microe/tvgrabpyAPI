@@ -11,6 +11,7 @@ from distutils.core import setup
 from os import environ, name
 from tvgrabpyAPI import version, __version__
 
+source_dir = u'/var/lib/tvgrabpyAPI'
 if name == 'nt':
     if 'USERPROFILE' in environ:
         home_dir = environ['USERPROFILE']
@@ -20,8 +21,8 @@ if name == 'nt':
         home_dir = environ['HOME']
 
     source_dir = u'%s/.xmltv/sources' % home_dir
-else:
-    source_dir = u'/var/lib/tvgrabpyAPI'
+elif 'TVGRABPYAPI_SRC_DIR' in environ:
+    source_dir = environ['TVGRABPYAPI_SRC_DIR']
 
 setup(
     name = version()[0],
