@@ -120,7 +120,7 @@ sI3
 V# Many can be overruled on the commandline.\u000a
 p46
 sI4
-V# Be carefull with manually editing. Invalid options will be\u000a
+V# Be careful with manually editing. Invalid options will be\u000a
 p47
 sI5
 V# silently ignored. Boolean options can be set with True/False,\u000a
@@ -275,7 +275,7 @@ sI73
 V# SSL/startTLS is NOT supported at present. Neither is authentication\u000a
 p91
 sI74
-V# Make sure to first test on a console as mailing occures after \u000a
+V# Make sure to first test on a console as mailing occurs after \u000a
 p92
 sI75
 V# closing of the logfile!\u000a
@@ -307,7 +307,7 @@ sI91
 V# These are the channeldefinitions. You can disable a channel by placing\u000a
 p99
 sI92
-V# a "#" in front. Seperated by ";" you see on every line: The Name,\u000a
+V# a "#" in front. Separated by ";" you see on every line: The Name,\u000a
 p100
 sI93
 V# the group, the chanID, the ID's for the sources in the order as\u000a
@@ -478,7 +478,7 @@ sI151
 V# For instance "navy NCIS" to "NCIS".\u000a
 p150
 sI152
-V# This among others to cover diferent naming on separate sources.\u000a
+V# This among others to cover different naming on separate sources.\u000a
 p151
 sI153
 g34
@@ -565,7 +565,7 @@ sI182
 V# and used. If no default exists "Unknown" will be used.\u000a
 p175
 sI183
-V# You should regualary check on new main categories\u000a
+V# You should regularly check on new main categories\u000a
 p176
 sI184
 V# so they don't get translated to "Unknown"\u000a
@@ -581,7 +581,7 @@ sI192
 V# The higher the number the more programmes will qualify\u000a
 p179
 sI193
-V# 0 is equivalant to "disable_ttvdb" = True, but it still lets you set\u000a
+V# 0 is equivalent to "disable_ttvdb" = True, but it still lets you set\u000a
 p180
 sI194
 V# a higher number for individual channels as it will still load the module.\u000a
@@ -602,7 +602,7 @@ sI202
 V# It is used f.i. to identify a programme for ttvdb lookup and for name manipulations\u000a
 p186
 sI203
-V# like title spliting to get an episode title.\u000a
+V# like title splitting to get an episode title.\u000a
 p187
 sI204
 V# Some defaults are added by the maintainer, you can not delete.\u000a
@@ -615,7 +615,7 @@ I72
 VExecution complete.\u000a
 p190
 sI73
-VFetch statistics for %s programms on %s channels:\u000a
+VFetch statistics for %s programs on %s channels:\u000a
 p191
 sI74
 V Start time: %s\u000a
@@ -633,7 +633,7 @@ sI78
 V%6.0f cache hits\u000a
 p196
 sI79
-V%6.0f succesful ttvdb.com lookups\u000a
+V%6.0f successful ttvdb.com lookups\u000a
 p197
 sI80
 V%6.0f    failed ttvdb.com lookups\u000a
@@ -783,7 +783,7 @@ sI44
 Vmaximum allowed length of program descriptions in\u000acharacters.
 p247
 sI45
-Vwhat strategy to use to correct overlaps:\u000a"avarage" use average of stop and start of next program.\u000a          <default>\u000a"stop"    keep stop time of current program and adjust\u000a          start time.\u000a"start"   keep start time of next program and adjust\u000a          stop time.\u000a"none"    do not use any strategy and see what happens.\u000a
+Vwhat strategy to use to correct overlaps:\u000a"average" use average of stop and start of next program.\u000a          <default>\u000a"stop"    keep stop time of current program and adjust\u000a          start time.\u000a"start"   keep start time of next program and adjust\u000a          stop time.\u000a"none"    do not use any strategy and see what happens.\u000a
 p248
 sI46
 Vmaximum length of overlap between programming to correct\u000a<default 10 minutes>
@@ -908,7 +908,7 @@ sI11
 VUpdated the options in the configfile %s!\u000a
 p290
 sI12
-VAn offset %s higher then the max is ridiculeous. We reset to %s
+VAn offset %s higher then the max is ridiculous. We reset to %s
 p291
 sI13
 VWe can look a maximum of 14 days ahead. Resetting!\u000a
@@ -1127,7 +1127,7 @@ sI9
 V    for %s days.\u000a
 p366
 sI10
-V    for periode %s of %s.
+V    for period %s of %s.
 p367
 sI11
 V    for %s days, page %s.\u000a
@@ -1154,7 +1154,7 @@ sI20
 VSkip %s. No data\u000a
 p375
 sI21
-VSkip periode %d on %s. No data\u000a
+VSkip period %d on %s. No data\u000a
 p376
 sI22
 VSkip page %d on %s. No data\u000a
@@ -1211,7 +1211,7 @@ sI3
 V%6.0f without details in cache\u000a
 p394
 sI4
-V%6.0f succesful ttvdb lookups\u000a
+V%6.0f successful ttvdb lookups\u000a
 p395
 sI5
 V%6.0f    failed ttvdb lookups\u000a
@@ -1237,7 +1237,7 @@ I1
 Vget_page timed out on (>%s s): %s\u000a
 p403
 sI2
-VAn unexpected error "%s:%s" has occured while fetching page: %s\u000a
+VAn unexpected error "%s:%s" has occurred while fetching page: %s\u000a
 p404
 sI3
 VCannot open url %s\u000a
@@ -1255,10 +1255,10 @@ sI12
 VThe supplied data was: %s\u000a
 p409
 sI13
-VAn error "%s" occured while extracting a DataTree\u000a
+VAn error "%s" occurred while extracting a DataTree\u000a
 p410
 sI14
-VAn error: "%s"\u000a   occured while extracting a %s DataTree for %s\u000a
+VAn error: "%s"\u000a   occurred while extracting a %s DataTree for %s\u000a
 p411
 sI19
 VTheTVDB processing of IDs: %s is taking to long.\u000a
@@ -1285,7 +1285,7 @@ sI26
 VError reading the %s-page: %s\u000a
 p419
 sI27
-VUnable to veryfy the right offset for the basepage: %s.\u000a
+VUnable to verify the right offset for the basepage: %s.\u000a
 p420
 sI28
 VSkip channel=%s on %s!, day=%d. Wrong date!\u000a
@@ -1361,13 +1361,13 @@ sI3
 V%s has invalid encoding %s.\u000a
 p446
 sI10
-VIf you want assistence, please attach your configuration and log files!\u000a
+VIf you want assistance, please attach your configuration and log files!\u000a
 p447
 sI11
-VAn unexpected error has occured in the %s thread:\u000a
+VAn unexpected error has occurred in the %s thread:\u000a
 p448
 sI12
-VAn unexpected error has occured:\u000a
+VAn unexpected error has occurred:\u000a
 p449
 sI13
 VUnrecognized log-message: %s of type %s\u000a
@@ -1385,7 +1385,7 @@ sI20
 VNo cachefile given. Cache function disabled!\u000a
 p454
 sI21
-VThe cache directory is not accesible. Cache function disabled!\u000a
+VThe cache directory is not accessible. Cache function disabled!\u000a
 p455
 sI22
 VError loading the database: %s.db (possibly corrupt)\u000a
@@ -1397,7 +1397,7 @@ sI24
 VFailed to load the database: %s.db\u000a
 p458
 sI25
-VDisableing Cache function
+VDisabling Cache function
 p459
 sI26
 VDatabase Error\u000a
@@ -1476,10 +1476,10 @@ sI4
 V\u000a
 p486
 sI11
-VError retreiving an ID from theTVdb.com\u000a
+VError retrieving an ID from theTVdb.com\u000a
 p487
 sI12
-VError retreiving episodes from theTVDB.com\u000a
+VError retrieving episodes from theTVDB.com\u000a
 p488
 sI13
 V  No ttvdb id for "%s" on channel %s\u000a
