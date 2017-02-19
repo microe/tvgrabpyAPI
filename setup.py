@@ -9,7 +9,12 @@ The detailed behaviour is highly configurable. See our site for more details.
 
 from distutils.core import setup
 from os import environ, name
+from sys import version_info
 from tvgrabpyAPI import version, __version__
+
+
+if version_info < (2, 7, 9) or version_info >= (3, 0):
+    sys.exit('Only Python2 version 2.7.9 or newer is currently supported')
 
 source_dir = u'/var/lib/tvgrabpyAPI'
 if name == 'nt':
